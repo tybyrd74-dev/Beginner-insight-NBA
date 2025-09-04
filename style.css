@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: orange;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #0077cc;
+}
+
+h1 {
+    text-shadow: 2px 2px 8px #b35a00, 0 4px 12px #000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    overflow: auto;
+}
+
+.box {
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    background: #fff;
+    border: 2px solid #0077cc;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    min-height: 200px;
+    color: #222;
+}
+
+/* Clear floats after main content */
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Child selector: style only direct li children of nav ul */
+nav ul > li {
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 2px;
+}
+
+/* Descendant selector: style all li inside section */
+section li {
+    color: #0077cc;
+    padding: 2px 0;
+}
+
+/* Borders, padding, and dimension for footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    border-top: 4px solid #0077cc;
+    margin-top: 40px;
+}
+
+/* Example of using visibility and display in CSS (overrides inline for demo) */
+#hidden-info {
+    visibility: hidden;
+}
+
+#display-none-info {
+    display: none;
+}
