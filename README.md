@@ -17,20 +17,6 @@ Beginner Insight NBA is a simple, visually engaging web page designed to introdu
 - CSS child and descendant selectors
 - CSS-based visibility and display
 
-## File/Folder Structure
-
-```
-Beginner-insight-NBA/
-├── images/
-│   └── basketball.svg
-├── index.html
-├── style.css
-└── README.md
-```
-
-## Usage
-1. Open `index.html` in your browser to view the NBA beginner page.
-2. To run as a GitHub Page, push to your repository and enable GitHub Pages in the repo settings.
 
 ## Credits
 - Created by Tyler Byrd
